@@ -62,7 +62,7 @@
             localStorage.removeItem("usertoken")
             localStorage.removeItem("username")
             Cookies.remove("expenses_user")
-            page("/login")
+            page("/")
         }
         const minAmount=1
 
